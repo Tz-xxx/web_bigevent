@@ -36,7 +36,7 @@
                 <!-- 密码 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input type="password" name="password" required lay-verify="required" placeholder="请输入密码"
+                    <input type="password" name="password" required lay-verify="required|pwd" placeholder="请输入密码"
                         autocomplete="off" class="layui-input">
                 </div>
 
@@ -90,6 +90,8 @@
     <script src="/assets/lib/layui/layui.all.js"></script>
     <!-- 导入 JQuary -->
     <script src="/assets/lib/jquery.js"></script>
+    <!-- 导入自己封装的baseAPI.js -->
+    <script src="/assets/js/baseAPI.js"></script>
     <!-- 导入 login.js -->
     <script src="/assets/js/login.js"></script>
 
